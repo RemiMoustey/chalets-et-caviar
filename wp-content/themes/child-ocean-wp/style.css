@@ -1,0 +1,62 @@
+/*
+Theme Name: Child-OceanWP
+Description: Theme enfant de Ocean WP pour Chalets et caviar
+Author: Rémi Moustey - OpenClassrooms
+Author URI: https://www.linkedin.com/in/r%C3%A9mi-moustey-17b753193/
+Template: oceanwp
+Version: 0.1.0
+*/
+
+p {
+  text-align: justify;
+}
+
+.container .content-area {
+  float: none;
+  position: static;
+  width: auto;
+  padding-right: 0;
+  border-right: none;
+}
+
+/* Estatik */
+
+.es-wrap .es-single h2 .es-cat-price p {
+    margin: 0 0 0 5px;
+}
+
+.es-wrap .es-single h2 .es-cat-price {
+    align-items: center;
+}
+
+.es-tabbed {
+  text-align: justify;
+}
+
+#content .es-fixed {
+  position: static;
+}
+
+@media (max-width: 700px) {
+  #es-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #es-info .es-property-fields {
+    width: initial!important;
+  }
+}
+
+@media (max-width: 640px) {
+  .es-wrap .es-single h2 .es-cat-price {
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 560px) {
+  .es-wrap .es-single h2 .es-cat-price {
+    justify-content: center;
+  }
+}
